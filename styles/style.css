@@ -1,3 +1,24 @@
-body {
+/* resets & overrides
+-----------------------------------------------*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img {border: none;}
+
+/* links & lists
+-----------------------------------------------*/
+li {list-style: none;}
+a {text-decoration: none;}
+
+/* layout & styles
+-----------------------------------------------*/
+:root {
+    font-size: 15px;
     font-family: 'Spartan', sans-serif;
+    --primary-color-one: hsl(300, 43%, 22%);
+    --primary-color-two: hsl(333, 80%, 67%);
+    --neutral-color-one: hsl(303, 10%, 53%);
+    --neutral-color-two: hsl(300, 24%, 96%);
 }

@@ -22,3 +22,71 @@ a {text-decoration: none;}
     --neutral-color-one: hsl(303, 10%, 53%);
     --neutral-color-two: hsl(300, 24%, 96%);
 }
+body {
+    height: 100vh;
+}
+.container {
+    max-width: 1240px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.align-start {
+    align-self: flex-start;
+}
+.align-center {
+    align-self: center;
+}
+.align-end {
+    align-self: flex-end;
+}
+.top-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.intro {
+    width: 34%;
+    min-width: 455px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.intro-heading {
+    font-size: 3.2rem;
+    color: var(--primary-color-one);
+    margin-bottom: 10px;
+    line-height: 0.98;
+}
+.intro-text {
+    line-height: 1.6;
+    color: var(--neutral-color-one);
+    font-weight: 500;
+}
+.rate-section {
+    width: 50%;
+    min-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.rate {
+    display: flex;
+    align-items: center;
+    width: 480px;
+    background: var(--neutral-color-two);
+    border-radius: 5px;
+    margin: 7px 20px;
+}
+.stars {
+    padding: 20px 40px 20px 30px;
+}
+.text {
+    color: var(--primary-color-one);
+    font-weight: 700;
+}
+.bottom-content {
+    display: flex;
+}
